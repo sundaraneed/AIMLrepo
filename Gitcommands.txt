@@ -4,3 +4,4 @@
 4.git commit.
 5.git config
 6.git branch
+7.undo
