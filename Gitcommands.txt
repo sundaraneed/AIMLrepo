@@ -1,2 +1,5 @@
-new file commands
-as you can see here
+1.create branch and make changes
+2.git add
+3.git clone
+4.git commit.
+5.git config
