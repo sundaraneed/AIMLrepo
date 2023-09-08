@@ -3,3 +3,4 @@
 3.git clone
 4.git commit.
 5.git config
+6.git branch
