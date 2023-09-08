@@ -3,3 +3,4 @@ and learning more commands
 git stash
 git revert
 git push pull origin head
+git revert
