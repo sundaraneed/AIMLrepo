@@ -1,0 +1,2 @@
+1.Go to settings and choose developer option.
+2.use the git push and pull commands.
