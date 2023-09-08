@@ -1,6 +1,5 @@
-performing another set of tokens
-and learning more commands
-git stash
-git revert
-git push pull origin head
-git revert
+1.git hub
+2.git
+3.eclipse
+4.visual studio
+5.workbench
