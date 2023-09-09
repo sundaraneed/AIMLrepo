@@ -6,3 +6,4 @@
 6.git branch
 7.git undo
 8.git stash
+9.git revert undo
