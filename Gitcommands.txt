@@ -5,3 +5,4 @@
 5.git config
 6.git branch
 7.git undo
+8.git stash
