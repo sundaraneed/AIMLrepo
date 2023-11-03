@@ -1,0 +1,47 @@
+.my{
+    width:1000px;
+    height:400px;
+    border:2px solid black;
+    padding:10px;
+    margin:30px;
+    background-color: dimgrey;
+}
+header,aside,main,footer{
+    margin:0;
+    padding:10px;
+
+}
+header {
+    border:1px solid white;
+    background-color: chocolate;
+    text-align: center;
+}
+aside{
+  border:1px solid white;
+  background-color: black;
+  width:200px;
+  height:250px;
+  float: left;
+  text-align: center;
+  color: beige;
+  padding: 10px;
+  
+
+}
+main{
+    flex:1;
+    text-align: center;
+    padding:10px;
+
+    margin-top:100px;
+    margin-right: 100px;
+
+
+
+}
+footer{
+        border:1px solid white;
+        background-color: chocolate;
+        text-align: center;
+        clear: both;
+}
