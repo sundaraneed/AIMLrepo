@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pe10.css">
+<head>
+    <style>
+        .box {
+            width: 500px;
+            height: 240px;
+            border: 2px solid #333;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML to create the box -->
+    <div class="box">
+        <form action="register">
+            <ol>
+                <label for="name">First Name:</label>
+            <input type="text"id="name"name="name" placeholder="'john'"><br><br>
+            <label for="name">Last Name:</label>
+            <input type="text"id="name"name="name" placeholder="'smith'"><br><br>
+            <label for="email">Email id:</label>
+            <input type="email"id="email"name="email" placeholder="user@example.com"><br><br>
+            <label for="password">Password:</label>
+            <input type="password"id="password"name="password" placeholder="8-10characters"><br><br>
+            <label for="password">Password confirmation:</label>
+            <input type="password"id="password"name="password" placeholder="Type your password"><br><br>
+            <input type="submit" value="submit">
+            </ol>
+        </div>
+        <div class="box">
+            <ol>
+                <label for="name">First Name:</label>
+                <input type="text"id="name"name="name" placeholder="'john'" autofocus="true" required autocomplete="off" pattern="(?=.[a-z])(?=.[A-Z])" title="first letter should be capital"><br><br>
+                <label for="name">Last Name:</label>
+                <input type="text"id="name"name="name" placeholder="'smith'" required autocomplete="off" pattern="(?=.[a-z])(?=.[A-Z])" title="first letter should be capital"><br><br>
+                <label for="email">Email id:</label>
+                <input type="email"id="email"name="email" placeholder="user@example.com" required autocomplete="off" pattern="(?=.[a-z])^(?=.{8}).@" title="it includes numbers,@ symbol"><br><br>
+                <label for="password">Password:</label>
+                <input type="password"id="password"name="password" placeholder="8-10characters" value="" autocomplete="off"
+                pattern="^(?=.{8})(?=.[a-z])(?=.[A-Z])(?=.[/d])(?=.[/w]).$" title="Password must be 8 or more characters with atleast one number,an uppercase letter, and one special character"><br><br>
+                <label for="password">Password confirmation:</label>
+                <input type="password"id="password"name="password" placeholder="Type your password"value="" autocomplete="off"
+                pattern="^(?=.{8})(?=.[a-z])(?=.[A-Z])(?=.[/d])(?=.[/w]).$" title="Password must be 8 or more characters with atleast one number,an uppercase letter, and one special character"><br><br>
+                <input type="submit" value="submit">
+    
+            </ol>
+        </form> 
+        </div>
+</body>
+</html>
