@@ -1,0 +1,12 @@
+<div>
+  <h2>Simple Calculator</h2>
+  <input type="number" [(ngModel)]="firstValue" placeholder="Enter the first value">
+  <input type="number" [(ngModel)]="secondValue" placeholder="Enter the second value">
+  <div>
+    <button (click)="add()">Add</button>
+    <button (click)="subtract()">Subtract</button>
+    <button (click)="multiply()">Multiply</button>
+    <button (click)="divide()">Divide</button>
+  </div>
+  <input type="text" [value]="result" disabled>
+</div>
